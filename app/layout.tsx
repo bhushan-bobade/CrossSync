@@ -12,7 +12,9 @@ export const metadata: Metadata = {
   keywords: ["cross-platform", "content sharing", "QR code", "rich text editor", "sync"],
   authors: [{ name: "CrossSync Team" }],
   viewport: "width=device-width, initial-scale=1",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/favicon.png", // This will be your new favicon
+  },
 }
 
 export default function RootLayout({
